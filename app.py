@@ -17,6 +17,23 @@ quiz.add_question(Question(
     ["Snake", "Programming Language", "Car", "Game"],
     "Programming Language"
 ))
+quiz.add_question(Question(
+    "What does CPU stand for?",
+    ["Central Processing Unit", "Computer Personal Unit", "Central Power Unit", "Control Processing Unit"],
+    "Central Processing Unit"
+))
+
+quiz.add_question(Question(
+    "Which language is used with Flask?",
+    ["Java", "Python", "C++", "PHP"],
+    "Python"
+))
+
+quiz.add_question(Question(
+    "Which data structure uses FIFO?",
+    ["Stack", "Queue", "Tree", "Array"],
+    "Queue"
+))
 
 current_question = None
 
